@@ -1,0 +1,38 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.but-sum {
+  border-width: 0px;
+  background-color: blue;
+  color: #fff;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+}
+.quiz-bg {
+  background-color: #a1bec4;
+  height: 100vh;
+  padding: 5px;
+}
+.label {
+  padding: 10px;
+  cursor: pointer;
+}
+.op {
+  margin: 10px;
+}
+.sp {
+  color: red;
+}
+.que {
+  font-weight: 600;
+  font-size: 22px;
+}
+.q-h {
+  padding-left: 20px;
+  font-family: 'Bree serif';
+}

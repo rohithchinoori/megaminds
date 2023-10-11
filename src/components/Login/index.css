@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+.login-bg {
+  background-image: url('https://img.freepik.com/free-vector/quiz-neon-sign_1262-19629.jpg?w=1380&t=st=1696921195~exp=1696921795~hmac=0746d690f9561d63d62c4bb5df1193a65a417ad1e3b14384b108d6467c8d5ecc');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.but {
+  cursor: pointer;
+  background-color: blue;
+  padding: 8px;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 15px;
+  border-width: 0px;
+}
+.l-p {
+  text-align: center;
+}
+.but1 {
+  cursor: pointer;
+  background-color: blue;
+  padding: 8px;
+  color: #fff;
+  border-radius: 6px;
+  border-width: 0px;
+}
+.input {
+  margin-top: 10px;
+  padding: 3px;
+}
+.head {
+  color: red;
+  font-size: 32px;
+  text-decoration: underline;
+}
+.error {
+  color: red;
+}
