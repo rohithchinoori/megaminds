@@ -18,7 +18,8 @@ class Login extends Component {
     event.preventDefault()
     const {username, password} = this.state
     const userDetails = {username, password}
-    const url = 'http://localhost:3001/api/auth/login'
+    const url =
+      'https://meagmindssignup-production-55dc.up.railway.app/api/auth/login'
     const options = {
       method: 'POST',
       headers: {
@@ -40,7 +41,8 @@ class Login extends Component {
     const {username, password} = this.state
     const details = {username, password}
     console.log(details)
-    const url = 'http://localhost:3001/api/auth/register'
+    const url =
+      'https://meagmindssignup-production-55dc.up.railway.app/api/auth/register'
     const options = {
       method: 'POST',
       headers: {
