@@ -10,7 +10,7 @@ class QuizPage extends Component {
   }
 
   fetchQuestions = async () => {
-    const url = 'http://localhost:3002/api/fetchQuestions'
+    const url = 'https://design-production.up.railway.app/api/fetchQuestions'
     const options = {
       method: 'GET',
     }
